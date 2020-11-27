@@ -1,7 +1,7 @@
 from math import log
 import operator
 
-def calcShannonEnt(dataSet):
+def calcShannonEnt(dataSet): #熵计算公式
     numEmtries = len(dataSet)
     labelCounts = {}
     for featVec in dataSet:
